@@ -1,0 +1,48 @@
+#results-div {
+    display:block;
+    margin:10px auto 50px auto;
+    width:50%;
+}
+#results-header{
+    margin-bottom:20px;
+    text-align:center;
+}
+.result-item{
+    background-color: #efefef;
+    border:3px solid #efefef;
+    box-shadow:1px 1px 3px black;
+    font-size:2rem;
+    list-style: none;
+    margin:10px;
+    padding:10px;
+    text-decoration:none;
+    transition:all .5s ease-in-out;
+}
+.result-item:hover{
+    transform:scale(1.03);
+    
+}
+.user-logo{
+    border-radius:50%;
+    box-shadow:1px 1px 3px black;
+    box-sizing: border-box;
+    margin-right:5%;
+    width:80px;
+}
+.empty-logo{
+    border-radius:0%;
+}
+.status{
+    background-color:#dedede;
+    border-radius:5px;
+    color:green;
+    display:inline-block;
+    font-size:1rem;
+    margin:10px auto;
+    padding:10px;
+    text-align:center;
+    width:100%;
+}
+.status h3{
+    color:black;
+}
