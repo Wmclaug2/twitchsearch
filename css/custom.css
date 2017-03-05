@@ -46,3 +46,9 @@
 .status h3{
     color:black;
 }
+
+@media (max-width: 900px) {
+    #results-div{
+        width:90%;
+    }
+}
